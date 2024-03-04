@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Singer Information</h2>
+
+    <form action="/submit_form" method="post">
+      <label for="singer_name">Singer Name:</label><br />
+      <input
+        type="text"
+        id="singer_name"
+        name="singer_name"
+        value="Sharry Mann"
+      /><br />
+      <label for="num_videos">Number of Videos:</label><br />
+      <input type="number" id="num_videos" name="num_videos" value="20" /><br />
+      <label for="video_duration">Duration of each video (sec):</label><br />
+      <input
+        type="number"
+        id="video_duration"
+        name="video_duration"
+        value="30"
+      /><br />
+      <label for="email_id">Email Id:</label><br />
+      <input
+        type="email"
+        id="email_id"
+        name="email_id"
+        value="abc@gmail.com"
+      /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
